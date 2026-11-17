@@ -119,7 +119,7 @@ const mcs = {
    l'identificador del vídeo de YouTube. */
 
 const batalles = {
-    chuty: { titol: "Chuty vs Bnet | FMS Espanya 2019", video: "mpZT9e8fcqc", inici: 1220 },
+    chuty: { titol: "Chuty vs Bnet | FMS España 2019", video: "mpZT9e8fcqc", inici: 1220 },
     aczino: { titol: "Aczino vs Gazir | FMS World Series 2025", video: "eJiZXriPYs0", inici: 856 },
     gazir: { titol: "Gazir vs Tirpa | Final FMS Internacional 2021", video: "-5Xn_4d7wNk", inici: 1075 },
     wos: { titol: "Wos vs Aczino | Final Internacional Red Bull 2018", video: "kJMPD1W2Pjs", inici: 695 },
