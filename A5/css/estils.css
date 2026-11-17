@@ -457,6 +457,11 @@ line-height: 1.2;
 .batalla-reproduir span { font-size:21px;line-height:1; }
 .batalla-accions {display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px;}
 .batalla-accions .batalla-enllac{margin:0;}
-.batalla-tornar {cursor:pointer;background:none;border:1px solid #222;padding:11px 13px;color:#222;font:700 12px/1.2 inherit;font-family:inherit;font-weight:800;}
+.batalla-tornar {cursor:pointer;background:none;border:1px solid #222;padding:11px 13px;color:#222;
+font-family: inherit;
+font-weight: 700;
+font-size: 12px;
+line-height: 1.2;
+font-family:inherit;font-weight:800;}
 .batalla-tornar:hover {background:#eee;}
 .batalla-nota {font-size:13px!important;line-height:1.55; margin-top:12px; color:#666!important;padding:0!important;border:0!important;background:none!important;}
