@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="author" content="Marc Bertomeu">
+  <meta name="keywords" content="freestyle, rap, MCs, FMS, Red Bull Batalla, batalles">
+  <meta name="theme-color" content="#111312">
+  <meta name="description" content="Coneix els 15 MCs, les seves fotografies, trajectòries i palmaresos.">
+  <title>Freestyle | MCs</title>
+  <link rel="stylesheet" href="css/estils.css">
+  <script src="components/script.js" defer></script>
+</head>
+<body class="pagina-mcs" >
+<div class="top-strip"><div class="contenidor strip-inner"><span>FREESTYLE / CULTURA &amp; COMPETICIÓ</span><span>DEL CARRER A L'ESCENARI</span></div></div>
+<header class="capcalera">
+ <div class="contenidor barra-superior">
+   <a class="logo" href="index.html" aria-label="Freestyle - inici"><span class="logo-word">FREE<span>STYLE</span></span></a>
+   <nav class="menu" aria-label="Navegació principal">
+      <a class="" href="index.html"><span>01</span> INICI</a>
+      <a class="actiu" href="mcs.html"><span>02</span> MCs</a>
+      <a class="" href="competicions.html"><span>03</span> COMPETICIONS</a>
+   </nav>
+   
+ </div>
+</header>
+<main id="inici">
+  <section class="inner-hero mcs-portada"><div class="inner-hero-image" role="img" aria-label="Un escenari de freestyle"></div><div class="contenidor inner-hero-content"><div class="eyebrow"><span class="eyebrow-line"></span> 02 / ELS PROTAGONISTES</div><h1>ELS <em>MCs.</em></h1><p>Quinze artistes, quinze maneres d'entendre la improvisació. Explora les seves històries, les victòries i les batalles.</p><div class="inner-hero-count"><strong>15</strong><span>PERFILS<br>PER EXPLORAR</span></div></div></section>
+  <section class="apartat galeria-mcs"><div class="contenidor">
+     <div class="section-meta"><span>02 / L'ARXIU</span><span>FREESTYLE / MCs</span></div>
+     <div class="galeria-capcalera"><div><span class="subtitol">ELS FREESTYLERS</span><h2>TOTES LES <em>VEUS.</em></h2></div><p>Clica una fotografia per obrir la fitxa completa i consultar el seu palmarès.</p></div>
+     <div class="gallery-toolbar"><label class="search-label" for="mc-buscador"><span class="search-icon">⌕</span><input id="mc-buscador" type="search" autocomplete="off" placeholder="Busca un MC o un país..." aria-label="Buscar MC per nom o país"></label><p id="mc-resultats">15 MCs DISPONIBLES</p></div>
+     <div class="galeria-grid" id="galeria-grid">
+       <button class="mc-galeria" type="button" data-mc="chuty" data-nom="chuty" data-pais="espanya" aria-label="Obrir fitxa de CHUTY">
+         <img src="img/chuty.jpg" alt="CHUTY" loading="lazy"><span class="mc-index">01</span><span class="galeria-info"><strong>CHUTY</strong><small>ESPANYA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="aczino" data-nom="aczino" data-pais="mèxic" aria-label="Obrir fitxa de ACZINO">
+         <img src="img/aczino.jpg" alt="ACZINO" loading="lazy"><span class="mc-index">02</span><span class="galeria-info"><strong>ACZINO</strong><small>MÈXIC</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="gazir" data-nom="gazir" data-pais="espanya" aria-label="Obrir fitxa de GAZIR">
+         <img src="img/gazir.jpg" alt="GAZIR" loading="lazy"><span class="mc-index">03</span><span class="galeria-info"><strong>GAZIR</strong><small>ESPANYA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="wos" data-nom="wos" data-pais="argentina" aria-label="Obrir fitxa de WOS">
+         <img src="img/wos.jpg" alt="WOS" loading="lazy"><span class="mc-index">04</span><span class="galeria-info"><strong>WOS</strong><small>ARGENTINA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="skone" data-nom="skone" data-pais="espanya" aria-label="Obrir fitxa de SKONE">
+         <img src="img/skone.jpg" alt="SKONE" loading="lazy"><span class="mc-index">05</span><span class="galeria-info"><strong>SKONE</strong><small>ESPANYA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="bnet" data-nom="bnet" data-pais="espanya" aria-label="Obrir fitxa de BNET">
+         <img src="img/bnet.jpg" alt="BNET" loading="lazy"><span class="mc-index">06</span><span class="galeria-info"><strong>BNET</strong><small>ESPANYA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="arkano" data-nom="arkano" data-pais="espanya" aria-label="Obrir fitxa de ARKANO">
+         <img src="img/arkano.jpg" alt="ARKANO" loading="lazy"><span class="mc-index">07</span><span class="galeria-info"><strong>ARKANO</strong><small>ESPANYA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="dtoke" data-nom="dtoke" data-pais="argentina" aria-label="Obrir fitxa de DTOKE">
+         <img src="img/dtoke.jpg" alt="DTOKE" loading="lazy"><span class="mc-index">08</span><span class="galeria-info"><strong>DTOKE</strong><small>ARGENTINA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="vallest" data-nom="valles-t" data-pais="colòmbia" aria-label="Obrir fitxa de VALLES-T">
+         <img src="img/vallest.jpg" alt="VALLES-T" loading="lazy"><span class="mc-index">09</span><span class="galeria-info"><strong>VALLES-T</strong><small>COLÒMBIA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="teorema" data-nom="teorema" data-pais="xile" aria-label="Obrir fitxa de TEOREMA">
+         <img src="img/teorema.jpg" alt="TEOREMA" loading="lazy"><span class="mc-index">10</span><span class="galeria-info"><strong>TEOREMA</strong><small>XILE</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="jaze" data-nom="jaze" data-pais="perú" aria-label="Obrir fitxa de JAZE">
+         <img src="img/jaze.jpg" alt="JAZE" loading="lazy"><span class="mc-index">11</span><span class="galeria-info"><strong>JAZE</strong><small>PERÚ</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="zasko" data-nom="zasko master" data-pais="espanya" aria-label="Obrir fitxa de ZASKO MASTER">
+         <img src="img/zasko.jpg" alt="ZASKO MASTER" loading="lazy"><span class="mc-index">12</span><span class="galeria-info"><strong>ZASKO MASTER</strong><small>ESPANYA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="trueno" data-nom="trueno" data-pais="argentina" aria-label="Obrir fitxa de TRUENO">
+         <img src="img/trueno.jpg" alt="TRUENO" loading="lazy"><span class="mc-index">13</span><span class="galeria-info"><strong>TRUENO</strong><small>ARGENTINA</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="metalinguistica" data-nom="metalingüística" data-pais="xile" aria-label="Obrir fitxa de METALINGÜÍSTICA">
+         <img src="img/metalinguistica.jpg" alt="METALINGÜÍSTICA" loading="lazy"><span class="mc-index">14</span><span class="galeria-info"><strong>METALINGÜÍSTICA</strong><small>XILE</small></span>
+       </button>
+       <button class="mc-galeria" type="button" data-mc="sweetpain" data-nom="sweet pain" data-pais="espanya" aria-label="Obrir fitxa de SWEET PAIN">
+         <img src="img/sweetpain.jpg" alt="SWEET PAIN" loading="lazy"><span class="mc-index">15</span><span class="galeria-info"><strong>SWEET PAIN</strong><small>ESPANYA</small></span>
+       </button>
+     </div>
+     <div class="galeria-buit" id="galeria-buit" hidden>Cap MC coincideix amb la cerca.</div>
+   </div></section>
+</main>
+<!-- El modal es genera amb les mateixes dades del JavaScript original -->
+<div class="modal-mc" id="modal-mc" hidden>
+  <div class="modal-fons"></div>
+  <div class="modal-contingut" role="dialog" aria-modal="true" aria-labelledby="fitxa-nom" tabindex="-1">
+     <div class="modal-topline"><span>FREESTYLE / FITXA DE L'ARTISTA</span><span>ARXIU DELS MCs</span></div>
+     <button class="tancar-modal" id="tancar-modal" type="button" aria-label="Tancar fitxa">×</button>
+     <div class="modal-grid">
+       <div class="modal-photo"><img id="fitxa-imatge" src="img/chuty.jpg" alt="Fotografia del freestyler"><span>FREESTYLE / ARTIST PROFILE</span></div>
+       <div class="modal-informacio"><p class="subtitol">CONEIX L'ARTISTA</p><h2 id="fitxa-nom">CHUTY</h2><p class="fitxa-pais" id="fitxa-pais">Espanya</p><div class="bio-details"><div><h3>NOM REAL</h3><p id="fitxa-real"></p></div><div><h3>TRAJECTÒRIA</h3><p id="fitxa-biografia"></p></div></div></div>
+     </div>
+     <div class="palmares-seccio"><div class="modal-section-head"><div><span class="subtitol">LA SEVA HISTÒRIA EN TÍTOLS</span><h3>PALMARÈS<span class="title-dot">.</span></h3></div><p>Explora els títols per categoria. Obre cada desplegable per veure les competicions i els anys.</p></div><div id="palmares-contingut"></div></div>
+     <div class="batalla-destacada"><div class="modal-section-head"><div><span class="subtitol">DAMUNT L'ESCENARI</span><h3>BATALLA <em>DESTACADA.</em></h3></div></div><p id="batalla-titol"></p><div class="video-contenidor">
+  <div class="batalla-portada" id="batalla-portada" hidden>
+    <img id="batalla-miniatura" alt="Miniatura de la batalla seleccionada" loading="lazy">
+    <div class="batalla-portada-capa">
+      <button id="batalla-reproduir" type="button" class="batalla-reproduir" aria-label="Reproduir la batalla dins la pàgina"><span aria-hidden="true">▶</span> REPRODUIR AQUÍ</button>
+    </div>
+  </div>
+  <iframe id="batalla-video" title="Vídeo de la batalla destacada" loading="eager" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen hidden></iframe>
+  <div id="batalla-accions" class="batalla-accions" hidden>
+    <a id="batalla-enllac" class="batalla-enllac" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">VEURE A YOUTUBE ↗</a>
+    <button id="batalla-reiniciar" class="batalla-tornar" type="button" hidden>TORNAR A LA MINIATURA</button>
+  </div>
+  <p id="batalla-nota" class="batalla-nota" hidden>Si el reproductor no funciona, obre la batalla a YouTube amb el botó superior.</p>
+</div></div>
+  </div>
+</div>
+<footer class="peu">
+  <div class="contenidor">
+   <div class="footer-kicker"><span>EL FREESTYLE ÉS CULTURA.</span><span>ARCHIVE / 2026</span></div>
+   <div class="footer-manifest">SENSE GUIÓ<span class="period">.</span><br><em>SENSE LÍMITS.</em></div>
+   <div class="footer-grid">
+     <div><a class="logo" href="index.html"><span class="logo-word">FREE<span>STYLE</span></span></a><p>Una mirada a les batalles, els artistes i les grans competicions del freestyle.</p></div>
+     <div><h3>EXPLORA</h3><a href="index.html">Inici</a><a href="mcs.html">Els 15 MCs</a><a href="competicions.html">Competicions</a></div>
+
+   </div>
+   <div class="footer-inferior"><span>© 2026 FREESTYLE</span><a href="#inici">TORNAR A DALT ↑</a></div>
+  </div>
+</footer>
+</body></html>

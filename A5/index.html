@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Marc Bertomeu">
+  <meta name="keywords" content="freestyle, rap, MCs, FMS, Red Bull Batalla, batalles">
+  <meta name="theme-color" content="#111312">
+  <meta name="description" content="Descobreix la cultura del freestyle, els MCs i les seves grans competicions.">
+  <title>Freestyle | Inici</title>
+  <link rel="stylesheet" href="css/estils.css">
+  <script>
+    // Exercici 3: cronòmetre que es reinicia en recarregar la pàgina.
+    function iniciarRellotge() {
+      let segons = 0;
+      const element = document.getElementById('rellotge');
+      function actualitzar() {
+        const minuts = Math.floor(segons / 60);
+        const seg = (segons % 60).toString().padStart(2, '0');
+        if (element) element.textContent = 'TEMPS ' + minuts + ':' + seg;
+      }
+      actualitzar();
+      setInterval(function() { segons++; actualitzar(); }, 1000);
+    }
+  </script>
+</head>
+<body class="pagina-inici" onload="iniciarRellotge()">
+<div class="top-strip"><div class="contenidor strip-inner"><span>FREESTYLE / CULTURA &amp; COMPETICIÓ</span><span>DEL CARRER A L'ESCENARI</span></div></div>
+<header class="capcalera">
+ <div class="contenidor barra-superior">
+   <a class="logo" href="index.html" aria-label="Freestyle - inici"><span class="logo-word">FREE<span>STYLE</span></span></a>
+   <nav class="menu" aria-label="Navegació principal">
+      <a class="actiu" href="index.html"><span>01</span> INICI</a>
+      <a class="" href="mcs.html"><span>02</span> MCs</a>
+      <a class="" href="competicions.html"><span>03</span> COMPETICIONS</a>
+   </nav>
+   <p id="rellotge" aria-label="Temps a la pàgina">TEMPS 0:00</p>
+ </div>
+</header>
+<section class="hero" id="inici" aria-labelledby="hero-titol">
+  <div class="hero-photo" role="img" aria-label="Final de Red Bull Batalla amb l'escenari i el públic"></div>
+  <div class="hero-graphic" aria-hidden="true">LIVE / IMPROV</div>
+  <div class="contenidor hero-contingut">
+    <div class="eyebrow"><span class="eyebrow-line"></span> BENVINGUT A L'ESCENA</div>
+    <h1 id="hero-titol">FREESTYLE</h1>
+    <p class="hero-lead">L'art de fer història<br><em>sense tenir un guió.</em></p>
+    <p class="hero-descripcio">Batalles, grans competicions i els MCs que han marcat una generació. Descobreix el món de la improvisació.</p>
+    <div class="hero-botons"><a href="mcs.html" class="boto boto-vermell">EXPLORAR ELS MCs <span>↗</span></a><a href="competicions.html" class="boto boto-contorn">LES COMPETICIONS <span>↗</span></a></div>
+  </div>
+  <div class="hero-bottom"><span>01 — WEB FREESTYLE</span><a href="#descobreix">DESCOBREIX MÉS <span>↓</span></a><span>EST. 2026</span></div>
+</section>
+<main id="descobreix">
+  <section class="apartat introduccio" id="cultura" aria-labelledby="intro-titol">
+    <div class="contenidor">
+      <div class="section-meta"><span>01 / LA CULTURA</span><span>LES PARAULES NEIXEN AL MOMENT</span></div>
+      <div class="intro-feature">
+        <div class="intro-copy">
+          <span class="subtitol">MÉS QUE MÚSICA</span>
+          <h2 id="intro-titol">IMPROVISAR<br><em>ÉS UN ART.</em></h2>
+          <p class="intro-lead">Rimes espontànies, ritme i respostes que només poden existir en aquell instant.</p>
+          <div class="intro-explain">
+            <p>El freestyle és una disciplina del rap basada en la improvisació. Els MCs creen versos al moment i demostren creativitat, agilitat mental i capacitat d'adaptar-se a cada situació.</p>
+            <p>En les batalles, dos o més participants s'enfronten amb paraules. El públic i els jutges valoren el <strong>flow</strong>, l'enginy, les rimes i la posada en escena.</p>
+          </div>
+          <a class="link-underline intro-cta" href="competicions.html">DESCOBREIX LES COMPETICIONS <span>↗</span></a>
+          <div class="intro-bottom-tag"><span class="intro-tag-line"></span> SENSE GUIÓ. TOT EN DIRECTE.</div>
+        </div>
+        <div class="intro-visual">
+          <img src="img/batalla.jpg" alt="Dos MCs improvisant davant del públic en una batalla de freestyle">
+          <span class="intro-photo-label">EL FREESTYLE EN DIRECTE <span>↗</span></span>
+          <span class="intro-photo-number">01 / 03</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="apartat caracteristiques">
+   <div class="contenidor"><div class="section-meta"><span>02 / L'ADN</span><span>QUATRE ELEMENTS, UNA CULTURA</span></div>
+    <div class="section-title-inline"><div><span class="subtitol">LES CLAUS DE LA BATALLA</span><h2>LA FÓRMULA<br><em>DEL TALENT.</em></h2></div><p>Una batalla va molt més enllà de rimar. És un xoc de creativitat, tècnica i presència.</p></div>
+    <div class="targetes-grid">
+      <article class="targeta"><span class="numero">01</span><div><h3>IMPROVISACIÓ</h3><p>Crear rimes al moment sense tenir cap lletra preparada.</p></div><span class="feature-icon">↗</span></article>
+      <article class="targeta"><span class="numero">02</span><div><h3>FLOW</h3><p>Adaptar les paraules i les pauses al ritme de la música.</p></div><span class="feature-icon">↗</span></article>
+      <article class="targeta"><span class="numero">03</span><div><h3>ENGINY</h3><p>Trobar la resposta inesperada i convertir-la en una rima.</p></div><span class="feature-icon">↗</span></article>
+      <article class="targeta"><span class="numero">04</span><div><h3>ESCENARI</h3><p>Transmetre energia i connectar amb el rival i el públic.</p></div><span class="feature-icon">↗</span></article>
+    </div>
+   </div>
+  </section>
+  <section class="apartat mcs-destacats">
+   <div class="contenidor"><div class="section-meta"><span>03 / ELS PROTAGONISTES</span><span>15 VEUS, 15 TRAJECTÒRIES</span></div>
+    <div class="section-title-inline"><div><span class="subtitol">ELS REFERENTS</span><h2>LA NOVA <em>ESCENA.</em></h2></div><a class="link-underline" href="mcs.html">VEURE ELS 15 MCs <span>↗</span></a></div>
+    <div class="mcs-grid">
+      <a class="mc-targeta" href="mcs.html" data-index="01"><img src="img/chuty.jpg" alt="Chuty"><div class="mc-info"><span>ESPANYA / 01</span><h3>CHUTY</h3></div></a>
+      <a class="mc-targeta" href="mcs.html" data-index="02"><img src="img/aczino.jpg" alt="Aczino"><div class="mc-info"><span>MÈXIC / 02</span><h3>ACZINO</h3></div></a>
+      <a class="mc-targeta" href="mcs.html" data-index="03"><img src="img/gazir.jpg" alt="Gazir"><div class="mc-info"><span>ESPANYA / 03</span><h3>GAZIR</h3></div></a>
+    </div>
+   </div>
+  </section>
+  <section class="apartat competicions-destacades">
+   <div class="contenidor"><div class="section-meta"><span>04 / ELS ESCENARIS</span><span>UN MOVIMENT INTERNACIONAL</span></div>
+    <div class="section-title-inline"><div><span class="subtitol">ON PASSA TOT</span><h2>GRANS <em>BATalles.</em></h2></div><a class="link-underline" href="competicions.html">TOTES LES COMPETICIONS <span>↗</span></a></div>
+    <div class="competicions-grid">
+      <a href="competicions.html" class="competicio-targeta"><img src="img/fms.jpg" alt="Escenari de la FMS"><span class="competicio-index">01 / FORMAT LLIGA</span><div class="competicio-contingut"><h3>FMS</h3><p>Una lliga amb jornades, punts i alguns dels millors improvisadors.</p><span>DESCOBRIR ↗</span></div></a>
+      <a href="competicions.html" class="competicio-targeta"><img src="img/redbull.jpg" alt="Final de Red Bull Batalla"><span class="competicio-index">02 / ELIMINATÒRIES</span><div class="competicio-contingut"><h3>RED BULL<br>BATALLA</h3><p>Les finals nacionals i internacionals que han marcat generacions.</p><span>DESCOBRIR ↗</span></div></a>
+    </div>
+   </div>
+  </section>
+  <section class="frase-final"><div class="contenidor"><span class="subtitol">FREESTYLE / 2026</span><h2>LES MILLORS RIMES<br><em>NEIXEN AL MOMENT.</em></h2><a class="boto boto-blanc" href="mcs.html">CONEIX ELS PROTAGONISTES ↗</a></div></section>
+</main>
+<footer class="peu">
+  <div class="contenidor">
+   <div class="footer-kicker"><span>EL FREESTYLE ÉS CULTURA.</span><span>ARCHIVE / 2026</span></div>
+   <div class="footer-manifest">SENSE GUIÓ<span class="period">.</span><br><em>SENSE LÍMITS.</em></div>
+   <div class="footer-grid">
+     <div><a class="logo" href="index.html"><span class="logo-word">FREE<span>STYLE</span></span></a><p>Una mirada a les batalles, els artistes i les grans competicions del freestyle.</p></div>
+     <div><h3>EXPLORA</h3><a href="index.html">Inici</a><a href="mcs.html">Els 15 MCs</a><a href="competicions.html">Competicions</a></div>
+
+   </div>
+   <div class="footer-inferior"><span>© 2026 FREESTYLE</span><a href="#inici">TORNAR A DALT ↑</a></div>
+  </div>
+</footer>
+</body></html>
